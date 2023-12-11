@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ryalto Developer Page</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav_box">
+                <div class="part1"><img src="/ryalto-logo-lg.png" alt=""><h1>Developer Page</h1></div>
+                <div class="part2">
+                    <div class="mobile-container">
+                    <a href="">Blog</a>
+                    <a href="">Our team</a>
+                    <a href="">Careers</a>
+                    <button onclick="darkFunction()"><img id="toggle" src="/brightness (2).png" alt=""></button>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+        </nav>
+
+        
+
+    </header>
+
+    <main>
+        <section>
+            <div class="section1">
+            <h1 id="title">Junior Front End Engineer <br>Technical Challenge</h1>
+            <p>Thank you for applying for our Junior Developer Position, we received a lot of applicants for <br> 
+            this position so we’re going to start things off with a short technical challenge.</p>
+
+            <p>Deadline : Wednesday 1st November at 17:00 BST, <br>
+            We’re reviewing submissions on Friday and late submissions will not be considered. </p>
+
+            <h2>We appreciate your time is valuable!</h2>
+            <p> So while we need to get a good feel for each of the candidates, we want you to work on <br> 
+            something that you could use on your portfolio should you choose to.</p>
+
+            <p></p>Please send your submission to careers@ryaltogroup.com, along with your CV and the <br> 
+            subject: “Junior Front End Engineer Technical Challenge”. Your question answers should be in <br>
+            the body of the email and you should have three attachments, your CV, the PDF of your <br> design and a .zip file of your html page.
+            </div>
+        </section>
+
+        <section>
+            <div class="section2">
+            <h2>Design Challenge</h2>
+            <p>Please select one of the options below for your challenge.</p>
+
+            <p>We would like you to improve the design of your chosen option. Please create your design in software of your<br> choice, such as Figma or Canva. We’d like to see your new design as a PDF.</p>
+
+            <p>Then, please can you take your design and build it in HTML and CSS. We’re not looking for any interactivity, <br> just your static design created in HTML and CSS. We’re looking for clean, semantic HTML and easily <br> maintainable CSS. Vanilla CSS is preferred. Please can you submit this as a zip file.</p>
+                
+            <p>Please can you accompany your submission with an explanation of your design and details around why you <br>chose to create it the way that you did. This could be annotations on the drawing, or a supporting document. </p>
+
+            <h3>Options</h3>
+            <p> Our developer page: https://developer.ryalto.group/</p>
+
+            <p>Our news feed: Please let us know if you would like to choose this option and we can give you <br>access to our demo site so you can see the current design</p>
+            
+            <p>A site / page which lets a user book onto a training course.</p>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="section3">
+            <h2>Questions</h2>
+
+            <p>Please can you include answers to the following questions with your design submission. <br>
+            We're looking for you to show your knowledge and your writing style. We want someone <br>
+            who is a strong writer, so please ensure your answers are clear and concise, and don't worry <br>
+            about hitting a load of buzzwords. Please do not use any generative AIs to create your <br>
+            answers, we’re looking to get to know you, not an LLM!</p>
+
+            <p>Can you give an example of something you feel has a good user experience and briefly <br>explain why?</p>
+
+            <p>Please can explain a couple of design or UX principles you try to follow when creating a <br> design?</p>
+
+            <p>What do you think is the most overused semantic HTML element and why?</p>
+
+            <p>Using an example of bad design, please can you explain a couple of ways you would <br> improve it.</p>
+
+            <p>Where are you currently based? (Homeworking Location)</p>
+
+            <p>Do you have any visa requirements to work in the UK?</p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <h2>Thank you! We look forward to seeing what you can do!</h2>
+    </footer>
+    <script>
+        function darkFunction() {
+            var element = document.body;
+            element.classList.toggle("dark");
+
+
+        function menuFunction() {
+                        var x = document.getElementsByClassName("part2");
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
+                        }    
+}
+    </script>
+</body>
+</html>
